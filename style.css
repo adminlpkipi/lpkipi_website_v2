@@ -188,6 +188,7 @@ a {
   justify-content: center;
   color: white;
   gap: 14px;
+  display: flex;
 }
 
 .hero-image-placeholder span {
