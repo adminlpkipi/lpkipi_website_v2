@@ -180,7 +180,9 @@ a {
 
 .hero-image-placeholder {
   min-height: 420px;
-  background: linear-gradient(145deg, #10264B, #1D3B68);
+  width: 100%;
+  background: linear-gradient(145deg, #10264B, #1D3B68) !important;
+  border: 2px solid red;
   border-radius: 18px;
   display: flex;
   flex-direction: column;
@@ -188,7 +190,6 @@ a {
   justify-content: center;
   color: white;
   gap: 14px;
-  display: flex;
 }
 
 .hero-image-placeholder span {
